@@ -1,0 +1,41 @@
+/*universal Operator*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.container.body{
+  background-color: #d0ff00;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;
+
+}
+.item.head{
+  grid-column: 1 / span 8;
+  background-color: #00ffff;
+}
+
+.item.nav{
+  grid-column: 1 / span 8;
+  grid-row: 2 / span 1;
+}
+.item.foot{
+  grid-column: 1 / span 8;
+  grid-row: 12 / span 1;
+}
+.item.simu{
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 11;
+}
+.item.ads{
+  grid-column: 8 / span 2;
+  grid-row: 3 / span 11;
+}
+.item.main{
+  grid-column: 4 / span 6;
+  grid-row: 4 / span 11;
+
+}
+
+
